@@ -1,25 +1,42 @@
 <template>
-  <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        before-i-die.ru.src
-      </h1>
-      <h2 class="subtitle">
-        Source of before-i-die.ru site
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+  <div id="wrapper">
+
+    <section class="panel banner right">
+      <div class="content color0 span-3-75">
+        <h1 class="major">Прежде чем умру,<br /> 
+        я ...</h1>
+        <ul class="actions">
+          <li><a href="#first" class="button primary color1">Подписаться</a></li>
+        </ul>
       </div>
-    </div>
-  </section>
+      <div class="image filtered span-1-75" data-position="25% 25%">
+        <img src="images/pic01.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="panel color4-alt">
+      <div class="intro color4">
+        <h2 class="major">Рассказать</h2>
+        <p>Тут можно анонимно поделиться своими мыслями о смысле жизни.</p>
+      </div>
+      <div class="inner columns divided">
+        <div class="span-3-25">
+          <form method="post" action="#">
+            <div class="fields">
+              <div class="field">
+                <label for="message">Прежде чем умру, я ...</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li><input type="submit" value="Опубликовать анонимно" class="button primary" /></li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div>
 </template>
 
 <script>
@@ -31,35 +48,4 @@ export default {
   }
 }
 </script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
 
