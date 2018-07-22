@@ -4,7 +4,7 @@
     <section class="panel banner right">
       <div class="content color0 span-3-75">
         <h1 class="major">Прежде чем умру,<br /> 
-        я ...</h1>
+        я {{ message }}</h1>
         <ul class="actions">
           <li><a href="#first" class="button primary color1">Подписаться</a></li>
         </ul>
@@ -40,12 +40,12 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import { mapGetters } from 'vuex'
 
 export default {
-  components: {
-    AppLogo
-  }
+  computed: mapGetters([
+    'message',
+  ]),
 }
 </script>
 
