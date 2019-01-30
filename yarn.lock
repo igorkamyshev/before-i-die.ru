@@ -814,9 +814,9 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
-"@nuxt/babel-preset-app@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/babel-preset-app/-/babel-preset-app-2.4.0.tgz#8ebf6187473449ea777d3e189f0b2ab7adec9520"
+"@nuxt/babel-preset-app@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/babel-preset-app/-/babel-preset-app-2.4.1.tgz#88297b132113cfb720723c22a9ea4eabb61e1a4a"
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-class-properties" "^7.3.0"
@@ -827,13 +827,13 @@
     "@babel/runtime" "^7.3.1"
     "@vue/babel-preset-jsx" "^1.0.0-beta.2"
 
-"@nuxt/builder@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/builder/-/builder-2.4.0.tgz#2d683a1a0040f44901bcdefaf7b75cf050803a28"
+"@nuxt/builder@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/builder/-/builder-2.4.1.tgz#7e0ea8eaf79e9dbc82af513bd79418f556def59f"
   dependencies:
     "@nuxt/devalue" "^1.2.0"
-    "@nuxt/utils" "2.4.0"
-    "@nuxt/vue-app" "2.4.0"
+    "@nuxt/utils" "2.4.1"
+    "@nuxt/vue-app" "2.4.1"
     chokidar "^2.0.4"
     consola "^2.3.2"
     fs-extra "^7.0.1"
@@ -845,11 +845,11 @@
     serialize-javascript "^1.6.1"
     upath "^1.1.0"
 
-"@nuxt/cli@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/cli/-/cli-2.4.0.tgz#60dfb8f36ac3a2d1de48bd6803cfd6e84ccdc2f8"
+"@nuxt/cli@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/cli/-/cli-2.4.1.tgz#d1763a807e26c6f45644d486553cf20734e7193d"
   dependencies:
-    "@nuxt/config" "2.4.0"
+    "@nuxt/config" "2.4.1"
     boxen "^2.1.0"
     chalk "^2.4.2"
     consola "^2.3.2"
@@ -860,23 +860,23 @@
     std-env "^2.2.1"
     wrap-ansi "^4.0.0"
 
-"@nuxt/config@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.4.0.tgz#16167c612e836908ae28f3a237936974b986e546"
+"@nuxt/config@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.4.1.tgz#5efbfc5996c6cf8d7b24590d61c6e4c8bcc5ec68"
   dependencies:
-    "@nuxt/utils" "2.4.0"
+    "@nuxt/utils" "2.4.1"
     consola "^2.3.2"
     std-env "^2.2.1"
 
-"@nuxt/core@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/core/-/core-2.4.0.tgz#1b3535902fbe6b6d2700567d0b0fefcba22519ce"
+"@nuxt/core@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/core/-/core-2.4.1.tgz#37701f8b0c3a17a489f9d62ff3859da9eec5b380"
   dependencies:
-    "@nuxt/config" "2.4.0"
+    "@nuxt/config" "2.4.1"
     "@nuxt/devalue" "^1.2.0"
-    "@nuxt/server" "2.4.0"
-    "@nuxt/utils" "2.4.0"
-    "@nuxt/vue-renderer" "2.4.0"
+    "@nuxt/server" "2.4.1"
+    "@nuxt/utils" "2.4.1"
+    "@nuxt/vue-renderer" "2.4.1"
     consola "^2.3.2"
     debug "^4.1.1"
     esm "^3.1.4"
@@ -899,11 +899,11 @@
     error-stack-parser "^2.0.0"
     string-width "^2.0.0"
 
-"@nuxt/generator@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/generator/-/generator-2.4.0.tgz#542df5f5e6bad721ee157cb01a9ef79381160db9"
+"@nuxt/generator@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/generator/-/generator-2.4.1.tgz#69bc387ea2184de985c1dfb529664d3c3cf4002c"
   dependencies:
-    "@nuxt/utils" "2.4.0"
+    "@nuxt/utils" "2.4.1"
     chalk "^2.4.2"
     consola "^2.3.2"
     fs-extra "^7.0.1"
@@ -917,12 +917,12 @@
     consola "^2.3.0"
     node-fetch "^2.3.0"
 
-"@nuxt/server@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/server/-/server-2.4.0.tgz#29f5403edfec8c1b5af512b455f9b408888ca16f"
+"@nuxt/server@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/server/-/server-2.4.1.tgz#01b966b69ac461d806eaac761863b311b7ccb80e"
   dependencies:
-    "@nuxt/config" "2.4.0"
-    "@nuxt/utils" "2.4.0"
+    "@nuxt/config" "2.4.1"
+    "@nuxt/utils" "2.4.1"
     "@nuxtjs/youch" "^4.2.3"
     chalk "^2.4.2"
     compression "^1.7.3"
@@ -941,16 +941,16 @@
     server-destroy "^1.0.1"
     ua-parser-js "^0.7.19"
 
-"@nuxt/utils@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.4.0.tgz#34cbf58be226b8a9d72b2be6a99b04d23d78fcef"
+"@nuxt/utils@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.4.1.tgz#26a15cadc5352dc00769596b02600d7b17a94441"
   dependencies:
     consola "^2.3.2"
     serialize-javascript "^1.6.1"
 
-"@nuxt/vue-app@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.4.0.tgz#e3eb90f721c48a37077636da0ebed19266586f5e"
+"@nuxt/vue-app@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.4.1.tgz#69d36db0823a2d6c2b4997e2872018fe02a8c544"
   dependencies:
     vue "^2.5.22"
     vue-meta "^1.5.8"
@@ -959,12 +959,12 @@
     vue-template-compiler "^2.5.22"
     vuex "^3.1.0"
 
-"@nuxt/vue-renderer@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/vue-renderer/-/vue-renderer-2.4.0.tgz#7c5d871f2c8ac54483b9a8ea2204281240ded1be"
+"@nuxt/vue-renderer@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/vue-renderer/-/vue-renderer-2.4.1.tgz#1092c4425a30ae646258daf7c45a508b94682282"
   dependencies:
     "@nuxt/devalue" "^1.2.0"
-    "@nuxt/utils" "2.4.0"
+    "@nuxt/utils" "2.4.1"
     consola "^2.3.2"
     fs-extra "^7.0.1"
     lru-cache "^5.1.1"
@@ -972,15 +972,15 @@
     vue-meta "^1.5.8"
     vue-server-renderer "^2.5.22"
 
-"@nuxt/webpack@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/webpack/-/webpack-2.4.0.tgz#778c295d70ab20058102075d4464f556d2f3a4f9"
+"@nuxt/webpack@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/webpack/-/webpack-2.4.1.tgz#cabe818d434b0da10e656de2504bbb12448188ce"
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/polyfill" "^7.2.5"
-    "@nuxt/babel-preset-app" "2.4.0"
+    "@nuxt/babel-preset-app" "2.4.1"
     "@nuxt/friendly-errors-webpack-plugin" "^2.4.0"
-    "@nuxt/utils" "2.4.0"
+    "@nuxt/utils" "2.4.1"
     babel-loader "^8.0.5"
     cache-loader "^2.0.1"
     caniuse-lite "^1.0.30000932"
@@ -4510,16 +4510,16 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.4.0.tgz#6e3c56f0b7425320227e437ecea2d0d392a9459e"
+nuxt@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.4.1.tgz#75e16e82a10ff5a657206b6ac339edab3a6a6e49"
   dependencies:
-    "@nuxt/builder" "2.4.0"
-    "@nuxt/cli" "2.4.0"
-    "@nuxt/core" "2.4.0"
-    "@nuxt/generator" "2.4.0"
+    "@nuxt/builder" "2.4.1"
+    "@nuxt/cli" "2.4.1"
+    "@nuxt/core" "2.4.1"
+    "@nuxt/generator" "2.4.1"
     "@nuxt/opencollective" "^0.2.1"
-    "@nuxt/webpack" "2.4.0"
+    "@nuxt/webpack" "2.4.1"
 
 object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
